@@ -1,0 +1,8 @@
+$RECYCLE.BIN
+node_modules
+
+.DS_Store
+.eslintcache
+Desktop.ini
+npm-debug.log
+Thumbs.db
