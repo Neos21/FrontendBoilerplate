@@ -7,53 +7,140 @@
 - EditorConfig と AtomBeautify を利用して、スタイル整形を行います。
 
 <table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Atom (apm)</th>
-      <th>npm</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="3">-</th>
-      <td>linter</td>
-      <td rowspan="3">-</td>
-    </tr>
-    <tr>
-      <td>editorconfig</td>
-    </tr>
-    <tr>
-      <td>atom-beautify</td>
-    </tr>
-    <tr>
-      <th>JavaScript (ES5)</th>
-      <td rowspan="2">linter-eslint</td>
-      <td rowspan="2">eslint</td>
-    </tr>
-    <tr>
-      <th>ES2015 (ES6)</th>
-    </tr>
-    <tr>
-      <th>HTML</th>
-      <td>linter-htmlhint</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>CSS</th>
-      <td>atom-csslint</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>SASS</th>
-      <td rowspan="2">linter-sass-lint</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <th>SCSS</th>
-      <td>-</td>
-    </tr>
-  </tbody>
+  <tr>
+    <th>Genre</th>
+    <th>Package</th>
+    <th>Name</th>
+    <th>Setting File<br></th>
+    <th>HTML<br></th>
+    <th>CSS</th>
+    <th>SASS</th>
+    <th>SCSS</th>
+    <th>JS</th>
+    <th>ES2015</th>
+  </tr>
+  <tr>
+    <td rowspan="6">Linter</td>
+    <td>apm</td>
+    <td>linter<br></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>linter-htmlhint</td>
+    <td>.htmlhintrc</td>
+    <td>○<br></td>
+    <td><br></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>atom-csslint<br></td>
+    <td>.csslintrc</td>
+    <td></td>
+    <td>○</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>linter-sass-lint</td>
+    <td>.sass-lint.yml</td>
+    <td></td>
+    <td></td>
+    <td>○</td>
+    <td>○</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>linter-eslint</td>
+    <td rowspan="2">.eslintrc</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>○</td>
+    <td>○</td>
+  </tr>
+  <tr>
+    <td>npm</td>
+    <td>eslint<br></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>○</td>
+    <td>○</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Beautify</td>
+    <td>apm</td>
+    <td>EditorConfig</td>
+    <td>.editorconfig</td>
+    <td>○</td>
+    <td>○</td>
+    <td>○</td>
+    <td>○</td>
+    <td>○</td>
+    <td>○</td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>atom-beautify : JSBeautify<br></td>
+    <td>.jsbeautifyrc</td>
+    <td>○</td>
+    <td>○</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>atom-beautify : SassConvert<br></td>
+    <td>-<br></td>
+    <td></td>
+    <td></td>
+    <td>○</td>
+    <td><br></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>atom-beautify : Pretty Diff</td>
+    <td>-<br></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>○</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>apm</td>
+    <td>atom-beautify : ESLint Fixer<br></td>
+    <td>.eslintrc</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>○</td>
+    <td>○</td>
+  </tr>
 </table>
 
 
