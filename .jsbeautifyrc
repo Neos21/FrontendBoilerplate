@@ -1,0 +1,16 @@
+{
+  "end_with_newline": true,
+  "indent_size": 2,
+  "indent_with_tabs": false,
+  "preserve_newlines": false,
+  "html": {
+    "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg"],
+    "indent_inner_html": true
+  },
+  "css": {
+    "allowed_file_extensions": ["css", "scss", "sass", "less"]
+  },
+  "js": {
+    "space_after_anon_function": false
+  }
+}

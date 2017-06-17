@@ -91,6 +91,7 @@ $ touch .eslintignore
 - [ESLint Rules](http://eslint.org/docs/rules/)
 - npm install 後に「No repository field」エラーが出る場合は、`package.json` に `"private": true` と追記する。
 - 「ESLint not found, please ensure the global Node path is set correctly.」というエラーが出る場合は linter-eslint の Settings で「Use global ESLint installation」のチェックを外す。
+- atom-beautify の Beautifier を「ESLint Fixer」にしておくと `.eslintrc` の設定を使って整形してくれる。linter-eslint の「Fix errors on save」は機能が重複するので切っておいて良い。
 
 
 ## HTML : linter-htmlhint
@@ -101,11 +102,10 @@ $ touch .htmlhintrc
 ```
 
 - [HTMLHint Rules](https://github.com/yaniswang/HTMLHint/wiki/Rules)
+- atom-beautify の Beautifier を「JSBeautify」にしておくと `.jsbeautifyrc` の設定を使って整形してくれる。
 
 
 ## CSS : atom-csslint
-
-同様のパッケージに「linter-csslint」というパッケージがあり、こちらも動作はするが、`.csslintrc` による設定変更が効かないため、atom-csslint を使用する。
 
 ```sh
 # .csslintrc を作る
@@ -114,6 +114,8 @@ $ touch .csslintrc
 
 - [CSSLint Rules](https://github.com/CSSLint/csslint/wiki/rules)
 - [CSSLint の Rules の超訳](https://gist.github.com/hail2u/1303613)
+- 同様のパッケージに「linter-csslint」というパッケージがあり、こちらも動作はするが、`.csslintrc` による設定変更が効かないため、atom-csslint を使用する。
+- atom-beautify の Beautifier を「JSBeautify」にしておくと `.jsbeautifyrc` の設定を使って整形してくれる。
 
 
 ## SASS・SCSS : linter-sass-lint
@@ -153,3 +155,6 @@ $ touch .editorconfig
 ## TODO
 
 - 各コードのビルド前に Lint を行う Gulp タスクを作成する。
+- HTML・CSS : 空行のインデントが保持されない。`.jsbeautifyrc` に空行のインデントを保持する設定がなさそう？
+- SASS : 空行のインデントが保持されない。コメントに日本語を含んでいると Beautify 時にエラー扱いになる。「SassConvert」(と内部で使用していると思われる SassBeautify) の仕様によるものかも？
+- SCSS : 空行のインデントが保持されない。「Pretty Diff」で設定する方法があるかな？
