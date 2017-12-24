@@ -245,3 +245,18 @@ $ touch .editorconfig
 - HTML・CSS : 空行のインデントが保持されない。`.jsbeautifyrc` に空行のインデントを保持する設定がなさそう？
 - SASS : 空行のインデントが保持されない。コメントに日本語を含んでいると Beautify 時にエラー扱いになる。「SassConvert」(と内部で使用していると思われる SassBeautify) の仕様によるものかも？
 - SCSS : 空行のインデントが保持されない。「Pretty Diff」で設定する方法があるかな？
+
+
+## Author
+
+[Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/neos21))
+
+
+## Links
+
+- [Neo's World](http://neo.s21.xrea.com/)
+- [Corredor](http://neos21.hatenablog.com/)
+- [Murga](http://neos21.hatenablog.jp/)
+- [El Mylar](http://neos21.hateblo.jp/)
+- [Bit-Archer](http://bit-archer.hatenablog.com/)
+- [GitHub - Neos21GitHub](https://github.com/Neos21GitHub/)
