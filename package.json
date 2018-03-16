@@ -4,16 +4,16 @@
   "description": "Frontend Boilerplate : HTML CSS SASS SCSS JS ES2015",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neos21GitHub/FrontendBoilerplate.git"
+    "url": "git+https://github.com/Neos21/FrontendBoilerplate.git"
   },
   "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Neos21GitHub/FrontendBoilerplate/issues"
+    "url": "https://github.com/Neos21/FrontendBoilerplate/issues"
   },
-  "homepage": "https://github.com/Neos21GitHub/FrontendBoilerplate#readme",
+  "homepage": "https://github.com/Neos21/FrontendBoilerplate#readme",
   "devDependencies": {
-    "eslint": "^4.0.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint": "4.0.0",
+    "eslint-plugin-react": "7.1.0"
   }
 }
