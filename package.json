@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/Neos21/FrontendBoilerplate#readme",
   "devDependencies": {
-    "eslint": "4.0.0",
+    "eslint": "4.19.1",
     "eslint-plugin-react": "7.1.0"
   }
 }
