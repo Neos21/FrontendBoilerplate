@@ -1,17 +1,21 @@
 {
   "name": "frontend-boilerplate",
-  "version": "1.0.0",
   "description": "Frontend Boilerplate : HTML CSS SASS SCSS JS ES2015",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Neos21/FrontendBoilerplate.git"
-  },
+  "private": true,
   "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Neos21/FrontendBoilerplate/issues"
+  "homepage": "https://github.com/Neos21/frontend-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/frontend-boilerplate.git"
   },
-  "homepage": "https://github.com/Neos21/FrontendBoilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/Neos21/frontend-boilerplate/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
   "devDependencies": {
     "eslint": "4.0.0",
     "eslint-plugin-react": "7.1.0"
